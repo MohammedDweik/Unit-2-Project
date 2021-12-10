@@ -492,6 +492,7 @@ int main(void)
         PlaySound(TEXT("correctAnswer.wav"), NULL, SND_SYNC);
         cout << "incorrect";
     }
+    cout << "\n";
 
     //To calculate final total score
     cout << "Your final score is " << score << " out of 58" << endl;
